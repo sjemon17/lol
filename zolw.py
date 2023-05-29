@@ -36,7 +36,7 @@ for _ in range(10):
 
 # Wyświetlanie wyniku
 wynik = 0
-wynik_pen = turtle.Turtle(
+wynik_pen = turtle.Turtle()
 wynik_pen.color("white")
 wynik_pen.penup()
 wynik_pen.goto(-szerokosc/2 + 10, wysokosc/2 - 40)
